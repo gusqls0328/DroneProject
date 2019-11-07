@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="exam02.Main">
+   <children>
+      <Button layoutX="237.0" layoutY="189.0" mnemonicParsing="false" text="역시는 역신가" />
+      <Button layoutX="233.0" layoutY="100.0" minHeight="50.0" minWidth="100.0" mnemonicParsing="false" text="Button" />
+      <Button layoutX="182.0" layoutY="14.0" mnemonicParsing="false" text="Button" textFill="#e80a0a" />
+      <BorderPane layoutX="44.0" layoutY="201.0" prefHeight="200.0" prefWidth="200.0">
+         <center>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </bottom>
+         <left>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </right>
+         <top>
+            <Button mnemonicParsing="false" text="Button" BorderPane.alignment="CENTER" />
+         </top>
+      </BorderPane>
+      <HBox layoutX="323.0" layoutY="248.0" prefHeight="50.0" prefWidth="235.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </HBox>
+      <VBox layoutX="492.0" layoutY="37.0" prefHeight="102.0" prefWidth="69.0">
+         <children>
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+            <Button mnemonicParsing="false" text="Button" />
+         </children>
+      </VBox>
+      <SplitPane dividerPositions="0.5505050505050505" layoutX="14.0" layoutY="14.0" orientation="VERTICAL" prefHeight="200.0" prefWidth="160.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="74.0" prefWidth="158.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="89.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="14.0" layoutY="60.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="89.0" layoutY="60.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="79.0" layoutY="14.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="14.0" layoutY="49.0" mnemonicParsing="false" text="Button" />
+                  <Button layoutX="79.0" layoutY="49.0" mnemonicParsing="false" text="Button" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button layoutX="272.0" layoutY="34.0" mnemonicParsing="false" text="Button" />
+      <StackPane layoutX="343.0" layoutY="17.0" prefHeight="142.0" prefWidth="142.0">
+         <children>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ff0000;">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Button" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </AnchorPane>
+         </children>
+      </StackPane>
+   </children>
+</AnchorPane>
